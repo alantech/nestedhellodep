@@ -1,1 +1,10 @@
-export const four = "5"
+from @std/app import start, exit, print
+from @std/cmd import exec
+
+export const four = "4";
+
+on start {
+  const echo = exec('echo "Hello world!"');
+  print('Nested dependency echo: ' + echo.stdout);
+  emit exit 0;
+}
