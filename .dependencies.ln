@@ -1,5 +1,5 @@
 from @std/deps import Package, install, add, commit, dependency, using, block
 
 on install fn (package: Package) = package
-  .using(['@std/app', '@std/cmd', '@std/root', '@std/seq'])
+  .using(['@std/app', '@std/cmd'])
   .commit()

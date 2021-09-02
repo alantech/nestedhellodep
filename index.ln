@@ -1,4 +1,4 @@
-from @std/app import start, exit, print
+from @std/app import print
 from @std/cmd import exec
 
 export const four = "4";
