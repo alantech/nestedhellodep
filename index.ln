@@ -1,1 +1,9 @@
-export const four = "4"
+from @std/app import print
+from @std/cmd import exec
+
+export const four = "4";
+
+export fn echo() {
+  const echo = exec('echo "Hello world!"');
+  print('Nested dependency echo: ' + echo.stdout);
+}
