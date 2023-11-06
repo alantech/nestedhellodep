@@ -4,4 +4,4 @@ A dummy dependency used by https://github.com/alantech/hellodep which is used by
 
 ## License
 
-Apache 2.0
+MIT
